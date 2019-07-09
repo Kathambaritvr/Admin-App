@@ -1,0 +1,30 @@
+{ 
+    "title": "Course",
+    "entity": "course",
+    "api": {
+      "url": "http://localhost:8080/courses"
+    },
+    "filter": [
+      "name"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "isId": true,
+        "type": "number",
+        "label": "Id",
+        "default": 0,
+        "control": "text"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "label": "Name"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "label": "Description"
+      } 
+    ]
+}

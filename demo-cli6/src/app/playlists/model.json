@@ -1,0 +1,34 @@
+{ 
+    "title": "Playlist",
+    "entity": "playlist",
+    "api": {
+      "url": "http://localhost:8080/playlists"
+    },
+    "filter": [
+      "name"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "label": "Id",
+        "isId": true,
+        "readonly": true,
+        "type": "number"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "label": "Name"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "label": "Description"
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "label": "Url"
+      }  
+    ]
+}
